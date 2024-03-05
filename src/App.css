@@ -1,0 +1,50 @@
+/* common css  */
+body{
+    @apply font-Inter 
+}
+
+
+/* Button styles */
+.buttons_v_1 {
+    @apply bg-primary text-white px-5 py-2  text-lg rounded-[24px] w-full ;
+}
+.buttons_v_2 {
+    @apply bg-primary text-white px-5 py-2  text-lg rounded-[24px] w-auto ;
+}
+.buttons_v_3 {
+    @apply bg-white text-fourth p-2  border border-gray-200 outline-none  text-lg rounded-[24px] w-auto ;
+}
+.buttons_v_4 {
+    @apply bg-white text-primary py-2 px-4  border border-gray-200 outline-none  text-lg rounded-[24px] w-auto ;
+}
+
+.buttons_v_3.active {
+@apply bg-[#F1F3FD]  text-black;
+      
+}
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .buttons_v_1:hover .arrow {
+    transform: translateX(6px);
+  }
+  .buttons_v_2:hover .arrow {
+    transform: translateX(6px);
+  }
+  .buttons_v_4:hover .arrow {
+    transform: translateX(6px);
+  }
+
+
+
+/* global css */
+
+.heading{
+    @apply capitalize text-[48px] font-bold  text-fourth mb-4;
+}
+.pera{
+    @apply  text-fourth/70 ;
+}
+  
