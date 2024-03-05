@@ -107,6 +107,14 @@ const Footer = () => {
         </div>
         {/* Sign up to our newsletter start */}
       </div>
+      <div className="container mx-auto">
+      <p className="text-white max-w-[90%] md:max-w-[80%] lg:max-w-[60%] mt-10 md:mt-16 lg:mt-20 p-4 md:p-0">
+        Apple, the Apple logo, and iPhone are trademarks of Apple Inc.,
+        registered in the U.S. and other countries. App Store is a service mark
+        of Apple Inc. Android, Google Play and the Google Play logo are
+        trademarks of Google LLC.
+      </p>
+      </div>
     </div>
   );
 };

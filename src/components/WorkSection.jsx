@@ -57,7 +57,7 @@ const WorkSection = () => {
     const activeItem = WorkSectionInf.find(item => item.id === activeButton);
 
     return (
-     <div className='px-4 md:px-8 lg:px-16'>
+   
            <div className="container mx-auto py-8 ">
             <h1 className="text-3xl font-bold text-gray-800 mt-4 mb-8">Built for the way you work</h1>
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
@@ -73,7 +73,7 @@ const WorkSection = () => {
             </div>
 
             <div className="flex flex-col-reverse md:flex-row justify-between items-center text-left">
-                <div className="mb-8 md:w-2/5 md:mr-8">
+                <div className="mb-8 md:w-[40%] md:mr-8">
                     <h2 className="text-xl font-bold mb-4">{activeItem.text}</h2>
                     <p className="text-gray-600 mb-4 w-[310px]">
                         {activeItem.description}
@@ -83,12 +83,12 @@ const WorkSection = () => {
                     </Link>
                 </div>
 
-                <div className="md:w-3/5">
+                <div className="md:w-[60%]">
                     <img src={WorkSectionImg} alt="WorkSectionImg" className="w-full" />
                 </div>
             </div>
         </div>
-     </div>
+
     );
 };
 

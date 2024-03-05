@@ -19,7 +19,7 @@ const Banner = () => {
   };
 
   return (
-    <footer className="py-6 lg:py-[60px] px-4 md:px-8 lg:px-16">
+    <footer className="py-6 lg:py-[60px]">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="text-center lg:text-left lg:w-[40%] pr-4">
           <h1 className="heading lg:w-[437px] mx-auto lg:mx-0">
